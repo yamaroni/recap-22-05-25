@@ -5,10 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Yama Roni</title>
+
+    <!-- Ini adalah CSS internal -->
+    <style>
+        article {
+            background-color: lightcoral;
+        }
+    </style>
+
+    <!-- Ini adalah CSS eksternal -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- Ini adalah ccs inline -->
+    <header onclick="showAlert();" style="background-color: aqua; display: flex; 
+    justify-content: space-between;">
+        <h1>Ini Judul Kiri</h1>
+        <h1>Ini Judul Kanan</h1>
+    </header>
 
+    <article>
+        <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+    </article>
+
+    <footer>
+        <span>Ini Footer Halaman</span>
+    </footer>
+
+    <!-- Internal JS -->
+    <script>
+        // Ini Function JavaScript
+        function showAlert() {
+            // Code untuk menampilkan popup pemberitahuan
+            alert("Hello World");
+        }
+    </script>
 </body>
 
 </html>
